@@ -2,70 +2,43 @@
 
 <html lang="tr">
 <head>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Hollanda İş Danışmanlığı</title>
+<title>Hollanda Danışmanlık | Anasayfa</title>
 <link href="favicon_from_logo.ico" rel="icon" type="image/x-icon"/>
-<style>
-    body { font-family: 'Inter', sans-serif; margin: 0; background: #f9f9f9; color: #333; }
-    header { background: #003366; color: #fff; padding: 20px; text-align: center; }
-    nav { background: #0055a5; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
-    .hero { text-align: center; padding: 50px 20px; background: #e8f0fe; }
-    .services, .contact { padding: 40px 20px; max-width: 900px; margin: auto; }
-    form { display: grid; gap: 10px; }
-    input, textarea {
-  transition: border 0.3s ease;
- padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
-    button {
-  transition: background-color 0.3s ease, transform 0.2s ease;
- background: #0055a5; color: white; padding: 10px; border: none; border-radius: 4px; cursor: pointer; }
-    button:hover { background: #003f7f; }
-    .whatsapp-link { background: #25D366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 10px; }
-    footer { background: #003366; color: white; text-align: center; padding: 20px; }
-  </style>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="assets/styles.css" rel="stylesheet"/>
 </head>
 <body>
 <header>
-<img alt="Şirket Logosu" src="logo.png" style="height: 60px;"/>
+<img alt="Hollanda Danışmanlık Logosu" class="logo" src="logo.png"/>
 <h1>Hollanda İş Danışmanlığı</h1>
 <p>Türkiye'den Avrupa’ya Açılan Güvenli Yolunuz</p>
 </header>
+
 <nav>
-<a href="#hizmetler">Hizmetler</a>
-<a href="#iletisim">İletişim</a>
+<a href="index.html">Anasayfa</a>
+<a href="hakkimizda.html">Hakkımızda</a>
+<a href="hizmetler.html">Hizmetler</a>
+<a href="referanslar.html">Referanslar</a>
+<a href="sss.html">SSS</a>
+<a href="blog.html">Blog</a>
+<a href="ekip-tanitimi.html">Ekibimiz</a>
+<a class="btn btn-secondary" href="teklif-al.html">Teklif Al</a>
+<a href="iletisim.html">İletişim</a>
 </nav>
+
 <section class="hero">
-<h2>Türk Şirketlerini Avrupa’ya Taşıyoruz</h2>
-<p>Girişimcilere ve KOBİ’lere uçtan uca danışmanlık hizmeti sunuyoruz.</p>
+<h2>Hollanda’da iş kurmak mı istiyorsunuz?</h2>
+<p>Şirketinizi Avrupa’ya taşımanız için her adımda yanınızdayız.</p>
+<div class="buttons">
+<a class="btn" href="hakkimizda.html">Bizi Tanıyın</a>
+<a class="btn btn-secondary" href="teklif-al.html">Teklif Al</a>
+</div>
 </section>
-<section class="services" id="hizmetler">
-<h2>Hizmetlerimiz</h2>
-<ul>
-<li>Şirket kuruluşu ve KVK kaydı</li>
-<li>Vergi numarası ve muhasebe işlemleri</li>
-<li>İkamet ve oturum izinleri</li>
-<li>Giriş stratejileri ve pazar analizi</li>
-<li>Networking ve temsilcilik</li>
-</ul>
-</section>
-<section class="contact" id="iletisim">
-<form action="https://formsubmit.io/send/koray.kul@hotmail.com" method="POST">
-<label for="isim">Adınız Soyadınız</label>
-<input id="isim" name="isim" placeholder="Adınız Soyadınız" required="" type="text"/>
-<label for="email">E-posta Adresiniz</label>
-<input id="email" name="email" placeholder="E-posta adresiniz" required="" type="email"/>
-<label for="mesaj">Mesajınız</label>
-<textarea id="mesaj" name="mesaj" placeholder="Mesajınız..." required="" rows="5"></textarea>
-<input name="_redirect" type="hidden" value="https://example.com/tesekkurler.html"/>
-<button type="submit">Gönder</button>
-</form>
-
-
-
-
-
-
-
-</section></body></html>
+<footer>
+<p>© 2025 Hollanda Danışmanlık. Tüm Hakları Saklıdır.</p>
+</footer>
+<script src="assets/scripts.js"></script>
+</body>
+</html>
